@@ -4,7 +4,7 @@
     "slug": "SistemaGestionEscolar",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/Logo SIC.png",
+    "icon": "./assets/images/LogoSIC.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
@@ -13,21 +13,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/Logo SIC.png",
+        "foregroundImage": "./assets/images/LogoSIC.png",
         "backgroundColor": "#4169e1"
-      }
+      },
+      "package": "com.GoldTechnology.SistemaGestionEscolar"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images"
+      "favicon": "./assets/images/LogoSIC.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/Logo SIC.png",
+          "image": "./assets/images/LogoSIC.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#4169e1"

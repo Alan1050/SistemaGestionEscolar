@@ -13,6 +13,7 @@ export default function Cabezera() {
 const styles = StyleSheet.create({
     header: {
         backgroundColor: "#1E3A8A",
+        paddingTop: Platform.OS === "web" ? 0 : 30,
     },
     Titulo: {
         fontSize: Platform.OS === "web" ? 54 : 24,
